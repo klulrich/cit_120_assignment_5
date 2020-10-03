@@ -58,5 +58,6 @@ for (var i=0; i<warriors.length; i++){
   }
   if(warriors[i].name.includes("a")){
     personEle.style.color="red"
-  }
+  }else{
+    personEle.style.color="black"
 }
